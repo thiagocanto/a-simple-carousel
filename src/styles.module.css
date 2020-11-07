@@ -1,9 +1,32 @@
 /* add css module styles here (optional) */
 
-.test {
+.carouselContainer {
   margin: 2em;
-  padding: 0.5em;
   border: 2px solid #000;
   font-size: 2em;
   text-align: center;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+.carouselContainer h3{
+  text-decoration: underline;
+  color: #ACAC0088;
+  mix-blend-mode: revert;
+
+}
+
+.carouselThumbnailsContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.carouselView {
+  height: 600px;
+  width: 100%;
+}
+.carouselView img {
+  max-width: 100%;
+  max-height: 100%;
 }
